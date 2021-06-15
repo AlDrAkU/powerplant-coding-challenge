@@ -8,9 +8,9 @@ Below you can find guide to running this solution.
 
 ## .requirements
 
-⋅⋅*python3 
+* python3 
 
-⋅⋅*flask
+* flask
 
 
 
