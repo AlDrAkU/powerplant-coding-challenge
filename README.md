@@ -3,22 +3,24 @@
 
 ## Welcome !
 
-Below you can find the description of a coding challenge that we ask people to perform when applying
-for a job in our team.
+Below you can find guide to running this solution.
 
 
 ## .requirements
-python3 
-flask
+⋅⋅*python3 
+⋅⋅*flask
 
 
 
 ## .installation
-
+pip install -r requirements.txt
 
 ## running
+starting server:
 
-run app server 
+```
+python app.py
+```
 
 Send POST request to http://127.0.0.1:8888/calculate
 
@@ -83,7 +85,7 @@ with body:
 
 The response will be:
 
-'''[
+```[
   {
     "name": "windpark1",
     "p": 90
@@ -96,4 +98,11 @@ The response will be:
     "name": "gasfiredbig1",
     "p": 368
   }
-]'''
+]```
+
+
+## The merit order is based on the efficiency and price per MWh, obviously the wind turbines are always the first priority given the facts.
+
+
+
+## TODO will add a DockerFile if time allows, co2 cost.

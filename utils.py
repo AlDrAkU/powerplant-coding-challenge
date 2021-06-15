@@ -112,20 +112,11 @@ def calc_load_balancing(payload: dict):
             powerplants_sorted += kerosene_plants
     for idx,pp in enumerate(powerplants_sorted):
         if remaining_load > 0:
-            if pp['type'] != 'windturbine':
-                plant = Powerplant(name=pp['name'],
+            plant = Powerplant(name=pp['name'],
                                type=pp['type'],
                                efficiency=pp['efficiency'],
                                pmin=pp['pmin'],
                                pmax=pp['pmax'],
-                               )
-            elif pp['type'] == 'windturbine':
-                plant = Powerplant(name=pp['name'],
-                               type=pp['type'],
-                               efficiency=pp['efficiency'],
-                               pmin=pp['pmin'],
-                               pmax=pp['pmax'],
-                               wind=wind
                                )
             total_capacity +=  plant.pmax
             
@@ -152,7 +143,6 @@ def calc_load_balancing(payload: dict):
     if load> total_capacity:
         return ValueError('Load is higher than capacity!')
     return jsonify(lst_load)
-
 
 ## for testing purposes
 if __name__ == '__main__':
