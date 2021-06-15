@@ -25,6 +25,8 @@ python app.py
 ## Or running in Docker
 
 ```docker build -t flask-app:latest .  ```
+
+
 ```docker run -it --rm -p 8888:8888 flask-app```
 
 Once the container finished loading and is all started up, you'll be informed that the flask server is up and running.
