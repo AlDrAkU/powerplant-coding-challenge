@@ -1,4 +1,4 @@
-# powerplant-coding-challenge
+# powerplant-coding-challenge-solution
 
 
 ## Welcome !
