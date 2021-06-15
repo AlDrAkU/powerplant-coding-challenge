@@ -7,7 +7,9 @@ Below you can find guide to running this solution.
 
 
 ## .requirements
+
 ⋅⋅*python3 
+
 ⋅⋅*flask
 
 
@@ -15,14 +17,14 @@ Below you can find guide to running this solution.
 ## .installation
 pip install -r requirements.txt
 
-## running locally
+## .running locally
 starting server:
 
 ```
 python app.py
 ```
 
-## Or running in Docker
+## .running in Docker
 
 ```docker build -t flask-app:latest .  ```
 
@@ -111,8 +113,8 @@ The response will be:
 ]```
 
 
-## The merit order is based on the efficiency and price per MWh, obviously the wind turbines are always the first priority given the facts.
+## .The merit order is based on the efficiency and price per MWh, obviously the wind turbines are always the first priority given the facts.
 
 
 
-## TODO will add co2 cost if time allows.
+## .TODO will add co2 cost if time allows.
