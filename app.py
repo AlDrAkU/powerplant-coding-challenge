@@ -1,7 +1,6 @@
-from fastapi import FastAPI, Request
+
 from flask import Flask, request
-from werkzeug.wrappers import response
-from utils import calc_load_balancing, payload_test
+from utils import calc_load_balancing
 
 
 app = Flask(__name__)

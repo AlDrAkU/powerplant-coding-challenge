@@ -155,4 +155,5 @@ def calc_load_balancing(payload: dict):
 
 '''if __name__ == '__main__':
 
+>>>>>>> afba930f45ae5ab2ce4ea2315c4603e1dbe7022b
   print(calc_load_balancing(payload_test))'''
