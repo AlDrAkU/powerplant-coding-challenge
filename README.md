@@ -24,7 +24,8 @@ Send POST request to http://127.0.0.1:8888/calculate
 
 with body:
 
-'''{
+```
+{
   "load": 480,
   "fuels":
   {
@@ -77,8 +78,8 @@ with body:
       "pmax": 36
     }
   ]
-}'''
-
+}
+```
 
 The response will be:
 
