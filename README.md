@@ -15,12 +15,20 @@ Below you can find guide to running this solution.
 ## .installation
 pip install -r requirements.txt
 
-## running
+## running locally
 starting server:
 
 ```
 python app.py
 ```
+
+## Or running in Docker
+
+```docker build -t flask-app:latest .  ```
+```docker run -it --rm -p 8888:8888 flask-app```
+
+Once the container finished loading and is all started up, you'll be informed that the flask server is up and running.
+
 
 Send POST request to http://127.0.0.1:8888/calculate
 
@@ -105,4 +113,4 @@ The response will be:
 
 
 
-## TODO will add a DockerFile if time allows, co2 cost.
+## TODO will add co2 cost if time allows.
