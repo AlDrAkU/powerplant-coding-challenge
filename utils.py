@@ -153,7 +153,9 @@ def calc_load_balancing(payload: dict):
         return ValueError('Load is higher than capacity!')
     return jsonify(lst_load)
 
-'''if __name__ == '__main__':
 
->>>>>>> afba930f45ae5ab2ce4ea2315c4603e1dbe7022b
-  print(calc_load_balancing(payload_test))'''
+## for testing purposes
+if __name__ == '__main__':
+
+
+  print(calc_load_balancing(payload_test))
