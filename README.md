@@ -110,7 +110,8 @@ The response will be:
     "name": "gasfiredbig1",
     "p": 368
   }
-]```
+]
+```
 
 
 ## .The merit order is based on the efficiency and price per MWh, obviously the wind turbines are always the first priority given the facts.
